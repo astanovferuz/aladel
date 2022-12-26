@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:wght@300&display=swap');
+
+body  {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  width: 80%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.custom_navbar  {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 15px;
   align-items: center;
+}
+
+.custom_nav_list  {
+  display: flex;
+}
+
+.custom_nav_item  {
+  margin: 0 25px;
+}
+
+.custom_nav_list  {
+  list-style: none;
+}
+
+.custom_nav_link  {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.custom_image {
+  height: 100px;
+}
+
+.custom_navbar_brand  {
+  display: flex;
+  align-items: center;
+}
+
+.custom_brand_name  {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.custom_banner  {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.custom_banner_img  {
+  height: 600px;
+  margin-right: -125px;
+  margin-top: 75px;
+}
+
+.custom_banner_cta  {
+  display: flex;
+  align-self: center;
+}
+
+.custom_banner_headline {
+  margin-bottom: 25px;
+  font-size: 60px;
+  font-weight: 800;
+  position: absolute;
+  left: 100px;
+  top: 325px;
+}
+
+.custom_banner_btn  {
+  border: none;
+  background-color: #FFF3D9;
+  height: 50px;
+  border-radius: 35px;
+  width: 300px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  position: absolute;
+  left: 100px;
+  top: 440px;
+}
+
+.custom_banner_subheadline  {
+  font-weight: 700;
+  position: absolute;
+  left: 100px;
+  top: 410px;
+}
+
+.custom_newscreen {
+  height: 100vh;
+  width: 100wv;
+  margin-top: 100px;
+}
+
+.custom_new_screen  {
+  height: 100vh;
+  display: flex;
+  margin-top: 100px;
+}
+
+.custom_left_screen {
+  width: 50vw;
+  background-color: #FFF3D9;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 167px;
 }
 
-.App-link {
-  color: #61dafb;
+.custom_right_screen  {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.custom_half_headline {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.custom_footer {
+  position: relative;
+  margin: 0px;
+  background-color: #FFF3D9;
+  padding: 0px;
+}
+
+.custom_footer-content {
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.custom_sub {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.custom_sub p {
+  margin: 5px;
+}
+
+@media screen and (max-width: 720px) {
+  .custom_sub {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.custom_half_img  {
+  height: 600px;
 }
